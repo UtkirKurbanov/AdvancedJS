@@ -76,7 +76,7 @@ console.log(movements);
 
 movements.map((mov, index) => {
     if(mov > 0){
-        console.log(` siz ${index + 1} urinishda ${mov *euroToUsd} dollar topdingiz `);
+        console.log(`siz ${index + 1} urinishda ${mov * euroToUsd} dollar topdingiz`);
     } else{
         console.log('hech narsa yoq');
     }
