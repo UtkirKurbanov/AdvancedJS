@@ -1,15 +1,26 @@
 // template literal
 
-const firstName = "Muhammadrasul";
-const job = "teacher";
-const birthYear = 2000;
-const year = 2022;
+// const firstName = "Muhammadrasul";
+// const job = "teacher";
+// const birthYear = 2000;
+// const year = 2022;
 
-const me = " I'm " + firstName + " ,a " + job;
+// const me = " I'm " + firstName + " ,a " + job;
+// console.log(me);
+
+// const newMe = ` Men ${firstName}, ${job}, men ${year - birthYear} yoshdaman `;
+// console.log(newMe);
+
+const userName = 'Utkir Kurbanov';
+const job = 'Front-End developer';
+const birthYear = 1988;
+const currentYear = 2023;
+
+const me = "My name is " + userName + ", and I am a " + job + ".";
 console.log(me);
 
-const newMe = ` Men ${firstName}, ${job}, men ${year - birthYear} yoshdaman `;
-console.log(newMe);
+const newMe = `My name is ${userName}, and I'm a ${job}. I am ${currentYear - birthYear} years old.`;
+console.log(newMe); 
 
 // statements if else
 
