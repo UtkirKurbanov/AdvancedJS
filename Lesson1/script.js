@@ -42,20 +42,23 @@ const yearsLeft = 18 - age;
   
   // switch case 
   
-const day = 'monday';
+const day = 'tuesday';
 
 switch (day) {
     case 'monday':
-        console.log("Kurs planini tuzaman");
+        console.log("Learning Upper-Intermediate English as a Second Language course from saylor.com");
         break;
     case 'tuesday':
-        console.log('Teoria tushuntiraman');
+        console.log('Learning Front-End course with Nurmukhamedov');
         break;
     case 'wednesday':
-        console.log('video yozib olish');
+        console.log('Practicing with new codes');
+        break
+    case 'saturday':
+        console.log('Playing football with my friends');
         break
     default:
-        console.log('Berilmagan kun');
+        console.log('Relax relax relax!!!!');
 }
 
 
