@@ -42,7 +42,7 @@ const yearsLeft = 18 - age;
   
   // switch case 
   
-const day = 'tuesday';
+const day = 'sunday';
 
 switch (day) {
     case 'monday':
